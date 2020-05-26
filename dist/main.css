@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+@media screen and (min-width: 320px) and (max-width: 640px) {
+  header {
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1); } }
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 22px 35px 25px 39px; }
+  @media screen and (min-width: 640px) {
+    .header-container {
+      display: flex;
+      margin: 48px 333px 113px 329px; } }
+
+.hamburger-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 36px;
+  height: 28px; }
+  @media screen and (min-width: 640px) {
+    .hamburger-menu {
+      display: none; } }
+
+.hamburger-item {
+  background-color: #2d2e30;
+  border-radius: 2px;
+  height: 4px;
+  width: 36px; }
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 247px;
+  font-size: 32px; }
+  .logo .logo-img img {
+    height: 75px;
+    width: 57px; }
+  .logo .logo-text {
+    font-family: 'Maven Pro', sans-serif; }
+    .logo .logo-text span {
+      font-size: 32px;
+      font-weight: normal;
+      text-transform: uppercase; }
+    .logo .logo-text .text-bold {
+      font-weight: bold; }
+  @media screen and (min-width: 640px) {
+    .logo .logo-img {
+      margin-right: 54px; }
+    .logo img {
+      height: 93px;
+      width: 71px; }
+    .logo .logo-text span {
+      font-size: 40px; } }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  @media screen and (min-width: 640px) {
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      width: 1022px; } }
+  .nav button {
+    height: 65px;
+    width: 326px;
+    background-color: #6caae4;
+    border: none;
+    border-radius: 5px;
+    font-family: "Maven Pro";
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffffff; }
+    @media screen and (min-width: 320px) {
+      .nav button {
+        display: none; } }
+    @media screen and (min-width: 640px) {
+      .nav button {
+        display: flex;
+        justify-content: center;
+        align-items: center; } }
+  @media screen and (min-width: 320px) {
+    .nav .menu-item {
+      display: none; } }
+  @media screen and (min-width: 640px) {
+    .nav .menu-item {
+      display: flex; } }
+  .nav .menu-item-ul {
+    font-family: "Maven Pro";
+    font-weight: bold;
+    display: flex;
+    font-size: 26px;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 522px; }
+    .nav .menu-item-ul a {
+      text-decoration: none;
+      color: #000000; }
+  .nav .cart {
+    position: relative;
+    height: 49px;
+    width: 52px; }
+    .nav .cart .cart-number {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      font-size: 20px;
+      color: #ffffff;
+      top: 0;
+      right: 0;
+      background-color: #6caae4;
+      width: 26px;
+      height: 26px;
+      border-radius: 100%; }
+
+.product {
+  display: flex;
+  flex-direction: column; }
+  @media screen and (min-width: 640px) {
+    .product {
+      display: flex;
+      padding: 0;
+      position: relative;
+      margin-left: 453px; }
+      .product .product-container h1 {
+        margin-top: 40px;
+        font-size: 86px; }
+      .product .product-container p {
+        font-size: 45px;
+        margin-top: 60px; }
+      .product .product-container-list {
+        display: flex;
+        margin-top: 77px; }
+        .product .product-container-list .product-container-box span {
+          font-size: 36px; }
+        .product .product-container-list .product-container-box img {
+          width: 61px;
+          height: 45px; }
+      .product .product-text p {
+        font-size: 20px; }
+      .product .product-container-text {
+        display: flex;
+        font-family: "Maven Pro";
+        font-weight: 400;
+        font-size: 56px; }
+        .product .product-container-text .text-bold {
+          font-family: "Lato";
+          font-weight: bold; }
+        .product .product-container-text p {
+          font-weight: normal; } }
+
+@media screen and (min-width: 320px) and (max-width: 640px) {
+  .product-container-text {
+    display: none; } }
+
+.product-container h1 {
+  margin: 56px 0 0 42px;
+  text-transform: uppercase;
+  color: #000000;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: .7; }
+
+.product-container p {
+  line-height: .7;
+  font-family: "Lato";
+  font-size: 26px;
+  font-weight: 300;
+  margin: 34px 0 0 40px; }
+
+.product-container-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 45px 0 45px 42px; }
+  .product-container-list .product-container-box {
+    display: flex;
+    align-items: center;
+    line-height: 46.41px; }
+    .product-container-list .product-container-box span {
+      font-family: 'Maven Pro', sans-serif;
+      font-size: 21px;
+      font-weight: 400; }
+    .product-container-list .product-container-box img {
+      margin-right: 29px;
+      height: 25px; }
+    @media screen and (min-width: 640px) {
+      .product-container-list .product-container-box {
+        line-height: 80px; } }
+
+.product-img {
+  display: flex;
+  margin-left: 120px; }
+  @media screen and (min-width: 640px) {
+    .product-img {
+      position: absolute;
+      right: 400px; }
+      .product-img img {
+        height: 971px;
+        width: 786px; } }
+
+.product-button-text {
+  display: flex;
+  flex-direction: column;
+  width: 538px; }
+  @media screen and (min-width: 320px) and (max-width: 640px) {
+    .product-button-text {
+      margin-left: 50px; } }
+  .product-button-text .product-button {
+    display: flex;
+    margin-top: 61px; }
+    .product-button-text .product-button button {
+      width: 538px;
+      height: 95px;
+      background-color: #6caae4;
+      color: #ffffff;
+      font-family: "Maven Pro";
+      font-size: 25px;
+      font-weight: normal;
+      text-transform: uppercase;
+      border: none;
+      border-radius: 5px; }
+  .product-button-text .product-text {
+    display: flex;
+    justify-content: center; }
+    .product-button-text .product-text p {
+      font-family: "Maven Pro";
+      font-size: 17px;
+      font-weight: 400; }
+  @media screen and (min-width: 640px) {
+    .product-button-text {
+      display: flex;
+      justify-content: start;
+      margin-top: 10px; }
+      .product-button-text .product-text p {
+        font-size: 20px; } }
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #000000; }

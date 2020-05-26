@@ -1,0 +1,27 @@
+{
+  "name": "pure_skin",
+  "version": "1.0.0",
+  "description": "pure_skin site page",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  },
+  "scripts": {
+    "gulp:sass": "gulp sass-to-css",
+    "gulp:sass:watch": "gulp sass-watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xmyhero1995x/pure_skin.git"
+  },
+  "author": "Vasyliev Denys",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xmyhero1995x/pure_skin/issues"
+  },
+  "homepage": "https://github.com/xmyhero1995x/pure_skin#readme"
+}
