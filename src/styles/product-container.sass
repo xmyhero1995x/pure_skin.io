@@ -1,14 +1,13 @@
 @import "./variables.sass"
-
-.product
-    display: flex
-    flex-direction: column
-   
+.section-product-container
+    .product
+        display: flex
+        flex-direction: column
     @media screen and ( min-width: 640px )
         display: flex
         padding: 0
-        position: relative
         margin-left: 453px
+        width: 2027px
         .product-container    
             h1
                 margin-top: 40px
@@ -84,7 +83,6 @@
     margin-left: 120px
     
     @media screen and ( min-width: 640px )
-        position: absolute
         right: 400px
         img
             height: 971px
@@ -109,6 +107,9 @@
             text-transform: uppercase
             border: none
             border-radius: 5px
+            @media screen and ( min-width: 640px )
+                font-size: 32px
+
     .product-text
         display: flex
         justify-content: center

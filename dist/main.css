@@ -120,41 +120,42 @@
       height: 26px;
       border-radius: 100%; }
 
-.product {
+.section-product-container .product {
   display: flex;
   flex-direction: column; }
-  @media screen and (min-width: 640px) {
-    .product {
+
+@media screen and (min-width: 640px) {
+  .section-product-container {
+    display: flex;
+    padding: 0;
+    margin-left: 453px;
+    width: 2027px; }
+    .section-product-container .product-container h1 {
+      margin-top: 40px;
+      font-size: 86px; }
+    .section-product-container .product-container p {
+      font-size: 45px;
+      margin-top: 60px; }
+    .section-product-container .product-container-list {
       display: flex;
-      padding: 0;
-      position: relative;
-      margin-left: 453px; }
-      .product .product-container h1 {
-        margin-top: 40px;
-        font-size: 86px; }
-      .product .product-container p {
-        font-size: 45px;
-        margin-top: 60px; }
-      .product .product-container-list {
-        display: flex;
-        margin-top: 77px; }
-        .product .product-container-list .product-container-box span {
-          font-size: 36px; }
-        .product .product-container-list .product-container-box img {
-          width: 61px;
-          height: 45px; }
-      .product .product-text p {
-        font-size: 20px; }
-      .product .product-container-text {
-        display: flex;
-        font-family: "Maven Pro";
-        font-weight: 400;
-        font-size: 56px; }
-        .product .product-container-text .text-bold {
-          font-family: "Lato";
-          font-weight: bold; }
-        .product .product-container-text p {
-          font-weight: normal; } }
+      margin-top: 77px; }
+      .section-product-container .product-container-list .product-container-box span {
+        font-size: 36px; }
+      .section-product-container .product-container-list .product-container-box img {
+        width: 61px;
+        height: 45px; }
+    .section-product-container .product-text p {
+      font-size: 20px; }
+    .section-product-container .product-container-text {
+      display: flex;
+      font-family: "Maven Pro";
+      font-weight: 400;
+      font-size: 56px; }
+      .section-product-container .product-container-text .text-bold {
+        font-family: "Lato";
+        font-weight: bold; }
+      .section-product-container .product-container-text p {
+        font-weight: normal; } }
 
 @media screen and (min-width: 320px) and (max-width: 640px) {
   .product-container-text {
@@ -201,7 +202,6 @@
   margin-left: 120px; }
   @media screen and (min-width: 640px) {
     .product-img {
-      position: absolute;
       right: 400px; }
       .product-img img {
         height: 971px;
@@ -228,6 +228,9 @@
       text-transform: uppercase;
       border: none;
       border-radius: 5px; }
+      @media screen and (min-width: 640px) {
+        .product-button-text .product-button button {
+          font-size: 32px; } }
   .product-button-text .product-text {
     display: flex;
     justify-content: center; }
@@ -242,6 +245,69 @@
       margin-top: 10px; }
       .product-button-text .product-text p {
         font-size: 20px; } }
+
+.shipping-container {
+  box-shadow: 0 0 30px rgba(52, 52, 52, 0.15);
+  display: flex;
+  justify-content: space-between;
+  margin-top: 123px; }
+  @media screen and (min-width: 640px) {
+    .shipping-container {
+      padding: 56px 290px 57px 137px;
+      margin-left: 329px;
+      width: 2220px; } }
+  .shipping-container .shipping-container-box_first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 495px; }
+    .shipping-container .shipping-container-box_first .shipping-container-text {
+      line-height: 0.7; }
+    .shipping-container .shipping-container-box_first h1 {
+      color: #3e3e3e;
+      font-family: "Maven Pro";
+      font-size: 27px; }
+    .shipping-container .shipping-container-box_first p {
+      color: #767676;
+      font-family: Lato;
+      font-size: 23px; }
+    @media screen and (min-width: 320px) and (max-width: 640px) {
+      .shipping-container .shipping-container-box_first {
+        padding: 58px 0 60px 49px; }
+        .shipping-container .shipping-container-box_first img {
+          height: 84px; } }
+  .shipping-container .shipping-container-box_second {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 542px; }
+    .shipping-container .shipping-container-box_second h1 {
+      color: #3e3e3e;
+      font-family: "Maven Pro";
+      font-size: 27px; }
+    .shipping-container .shipping-container-box_second p {
+      color: #767676;
+      font-family: Lato;
+      font-size: 23px; }
+    @media screen and (min-width: 320px) and (max-width: 640px) {
+      .shipping-container .shipping-container-box_second {
+        display: none; } }
+  .shipping-container .shipping-container-box_third {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 460px; }
+    .shipping-container .shipping-container-box_third h1 {
+      color: #3e3e3e;
+      font-family: "Maven Pro";
+      font-size: 27px; }
+    .shipping-container .shipping-container-box_third p {
+      color: #767676;
+      font-family: Lato;
+      font-size: 23px; }
+    @media screen and (min-width: 320px) and (max-width: 640px) {
+      .shipping-container .shipping-container-box_third {
+        display: none; } }
 
 body {
   box-sizing: border-box;

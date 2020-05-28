@@ -1,0 +1,62 @@
+.shipping-container {
+  box-shadow: 0 0 30px rgba(52, 52, 52, 0.15);
+  display: flex;
+  justify-content: space-between;
+  margin-top: 123px; }
+  @media screen and (min-width: 640px) {
+    .shipping-container {
+      padding: 56px 290px 57px 137px;
+      margin-left: 329px;
+      width: 2220px; } }
+  .shipping-container .shipping-container-box_first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 495px; }
+    .shipping-container .shipping-container-box_first .shipping-container-text {
+      line-height: 0.7; }
+    .shipping-container .shipping-container-box_first h1 {
+      color: #3e3e3e;
+      font-family: "Maven Pro";
+      font-size: 27px; }
+    .shipping-container .shipping-container-box_first p {
+      color: #767676;
+      font-family: Lato;
+      font-size: 23px; }
+    @media screen and (min-width: 320px) and (max-width: 640px) {
+      .shipping-container .shipping-container-box_first {
+        padding: 58px 0 60px 49px; }
+        .shipping-container .shipping-container-box_first img {
+          height: 84px; } }
+  .shipping-container .shipping-container-box_second {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 542px; }
+    .shipping-container .shipping-container-box_second h1 {
+      color: #3e3e3e;
+      font-family: "Maven Pro";
+      font-size: 27px; }
+    .shipping-container .shipping-container-box_second p {
+      color: #767676;
+      font-family: Lato;
+      font-size: 23px; }
+    @media screen and (min-width: 320px) and (max-width: 640px) {
+      .shipping-container .shipping-container-box_second {
+        display: none; } }
+  .shipping-container .shipping-container-box_third {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 460px; }
+    .shipping-container .shipping-container-box_third h1 {
+      color: #3e3e3e;
+      font-family: "Maven Pro";
+      font-size: 27px; }
+    .shipping-container .shipping-container-box_third p {
+      color: #767676;
+      font-family: Lato;
+      font-size: 23px; }
+    @media screen and (min-width: 320px) and (max-width: 640px) {
+      .shipping-container .shipping-container-box_third {
+        display: none; } }
