@@ -1,0 +1,56 @@
+.section-product_future {
+  background-color: #f5f5f5;
+  width: 640px;
+  height: 750px;
+  margin-top: 72px; }
+  .section-product_future .product_future-container {
+    display: flex;
+    flex-direction: column;
+    margin: 72px 60px 0 52px; }
+    .section-product_future .product_future-container .product_future-text {
+      display: flex;
+      flex-direction: column; }
+      .section-product_future .product_future-container .product_future-text h2 {
+        font-family: 'Maven Pro', sans-serif;
+        font-size: 37px;
+        color: #333740;
+        font-weight: normal;
+        text-transform: uppercase; }
+      .section-product_future .product_future-container .product_future-text p {
+        font-family: "Lato";
+        font-size: 21px;
+        font-weight: normal;
+        color: #83888f; }
+    .section-product_future .product_future-container .product_future-description {
+      display: flex; }
+      .section-product_future .product_future-container .product_future-description .description-img img {
+        display: block;
+        width: 225px;
+        height: 495px;
+        position: relative;
+        right: 40px; }
+      .section-product_future .product_future-container .product_future-description .description-block {
+        display: flex;
+        flex-direction: column; }
+        .section-product_future .product_future-container .product_future-description .description-block .text {
+          margin-top: 50px; }
+          .section-product_future .product_future-container .product_future-description .description-block .text .title {
+            display: flex;
+            height: 36px;
+            align-items: center; }
+            .section-product_future .product_future-container .product_future-description .description-block .text .title .title-border {
+              height: 36px;
+              border-left: 7px solid #6caae4;
+              border-radius: 3px;
+              margin-right: 26px; }
+            .section-product_future .product_future-container .product_future-description .description-block .text .title .title-text h3 {
+              font-family: 'Maven Pro', sans-serif;
+              font-size: 20px;
+              font-weight: bold;
+              color: #333740; }
+          .section-product_future .product_future-container .product_future-description .description-block .text p {
+            margin-top: 26px;
+            font-family: 'Lato';
+            font-size: 16px;
+            font-weight: normal;
+            color: #83888f; }

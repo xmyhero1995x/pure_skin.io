@@ -1,0 +1,65 @@
+.section-shipping {
+  display: flex; }
+  .section-shipping .shipping-container {
+    box-shadow: 0 0 30px rgba(52, 52, 52, 0.15);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px; }
+    @media screen and (min-width: 640px) {
+      .section-shipping .shipping-container {
+        margin-left: 329px;
+        width: 2220px; } }
+    .section-shipping .shipping-container .shipping-box_first {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 640px; }
+      .section-shipping .shipping-container .shipping-box_first .text {
+        line-height: 1.6; }
+      .section-shipping .shipping-container .shipping-box_first h1 {
+        color: #3e3e3e;
+        font-family: "Maven Pro";
+        font-size: 27px;
+        text-transform: uppercase; }
+      .section-shipping .shipping-container .shipping-box_first p {
+        color: #767676;
+        font-family: Lato;
+        font-size: 23px; }
+      @media screen and (min-width: 320px) and (max-width: 640px) {
+        .section-shipping .shipping-container .shipping-box_first {
+          padding: 58px 96px 60px 49px;
+          width: 495px; }
+          .section-shipping .shipping-container .shipping-box_first img {
+            height: 84px; } }
+    .section-shipping .shipping-container .shipping-box_second {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 542px; }
+      .section-shipping .shipping-container .shipping-box_second h1 {
+        color: #3e3e3e;
+        font-family: "Maven Pro";
+        font-size: 27px; }
+      .section-shipping .shipping-container .shipping-box_second p {
+        color: #767676;
+        font-family: Lato;
+        font-size: 23px; }
+      @media screen and (min-width: 320px) and (max-width: 640px) {
+        .section-shipping .shipping-container .shipping-box_second {
+          display: none; } }
+    .section-shipping .shipping-container .shipping-box_third {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 460px; }
+      .section-shipping .shipping-container .shipping-box_third h1 {
+        color: #3e3e3e;
+        font-family: "Maven Pro";
+        font-size: 27px; }
+      .section-shipping .shipping-container .shipping-box_third p {
+        color: #767676;
+        font-family: Lato;
+        font-size: 23px; }
+      @media screen and (min-width: 320px) and (max-width: 640px) {
+        .section-shipping .shipping-container .shipping-box_third {
+          display: none; } }
